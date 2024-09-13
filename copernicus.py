@@ -1,7 +1,7 @@
 import xarray as xr
 import matplotlib.pyplot as plt
 
-file_path = './c_gls_LST_202409100000_GLOBE_GEO_V2.1.2_CZ0_LST.nc'
+file_path = 'c_gls_LST_202009130100_GLOBE_GEO_V1.2.1.nc'
 
 ds = xr.open_dataset(file_path)
 
