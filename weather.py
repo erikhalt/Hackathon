@@ -11,6 +11,8 @@ loc = Point(59.9114,10.7579)
 data = Hourly(loc,start,end)
 data = data.fetch()
 
+print(data)
+
 data = data.iloc[:,[0]]
 data = data.reset_index()
 print(data)
