@@ -5,7 +5,7 @@ import numpy as np
 # GDD formula: GDD = (T_max + T_min)/2 - T_base
 T_Base = 10
 
-df_hourly = pd.read_csv("meteostat tempratures.csv")
+df_hourly = pd.read_csv("resources/meteostat_tempratures.csv")
 
 df_hourly['time'] = pd.to_datetime(df_hourly['time'])
 
