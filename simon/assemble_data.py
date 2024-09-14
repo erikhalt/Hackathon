@@ -44,7 +44,7 @@ def main():
     df_base = []
 
     for k in sorted(daily_data.keys()):
-        row = [k, *daily_data[k]]
+        row = [f'{k[0]}-{k[1]}', *daily_data[k]]
         df_base.append(row)
 
     df = pd.DataFrame(df_base)
