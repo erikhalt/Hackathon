@@ -1,6 +1,6 @@
 import pandas as pd
 
-class plot():
+class plot:
     def __init__(self):
         dfs = []
 
