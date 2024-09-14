@@ -1,9 +1,10 @@
+import sys
 from pathlib import Path
 
 import pandas as pd
 
-P_DATABASE = Path('resources/LST_noisy.csv')
-P_OUT = Path('resources/LST_interpolated.csv')
+P_DATABASE = Path(sys.argv[1])
+P_OUT = Path(sys.argv[2])
 
 
 def main():
